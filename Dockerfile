@@ -24,5 +24,5 @@ USER steam
 COPY init-config.sh .
 RUN ./init-config.sh
 
-ENTRYPOINT ./kf2/Binaries/Win64/KFGameSteamServer.bin.x86_64 kf-bioticslab
+ENTRYPOINT ["./kf2/Binaries/Win64/KFGameSteamServer.bin.x86_64", "kf-bioticslab"]
 
