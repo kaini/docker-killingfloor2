@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV KILLING_FLOOR_2_VERSION 1068
+ENV KILLING_FLOOR_2_VERSION 1071
 
 RUN addgroup --gid 1000 steam && \
     adduser --disabled-password --disabled-login --gecos "" --uid 1000 --gid 1000 steam
